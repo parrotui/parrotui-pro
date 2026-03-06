@@ -1,135 +1,138 @@
-# ParrotUI Pro Commercial License
+# ParrotUI Pro
 
-**Copyright (c) 2026 Parrot Technology Co., Ltd.**
+**现代化开源 UI 框架 - 商业版**
 
----
-
-## 重要提示
-
-本软件及其文档受版权保护。购买 ParrotUI Pro 许可证即表示您同意遵守本许可协议的条款。
+[![License: Commercial](https://img.shields.io/badge/License-Commercial-red.svg)](LICENSE_COMMERCIAL)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://parrotui.com)
+[![Contact](https://img.shields.io/badge/contact-parrotui@qq.com-green.svg)](mailto:parrotui@qq.com)
 
 ---
 
-## ParrotUI Pro 商业许可协议
+## 📖 简介 / Introduction
 
-### 1. 授权类型 (License Types)
+**ParrotUI Pro** 是 ParrotUI 的商业版本，提供高级组件、专业支持和企业级功能。
 
-| 授权类型 | 说明 | 价格 |
-|----------|------|------|
-| **开发者授权** | 按开发者人数授权，每个开发者可在多个项目中使用 | $99/年/人 |
-| **项目授权** | 按项目数量授权，不限开发者人数 | $199/年/项目 |
-| **企业授权** | 无限开发者、无限项目使用 | $999/年 |
-
-### 2. 允许的行为 (Permissions)
-
-✅ 在商业项目中使用
-✅ 修改源代码供内部使用
-✅ 部署到生产环境
-✅ 获得优先技术支持
-✅ 获取更新和 Bug 修复
-
-### 3. 禁止的行为 (Restrictions)
-
-❌ 转售、再授权、分发源代码
-❌ 用于创建竞争性 UI 框架
-❌ 反编译、逆向工程
-❌ 移除或修改版权标识
-❌ 将组件拆分为独立库分发
-
-### 4. 技术支持 (Support)
-
-- 📧 邮件支持：parrotui@qq.com
-- 📚 文档访问：https://parrotui.com/docs
-- 🔄 更新通知：购买后自动获取版本更新
-
-### 5. 退款政策 (Refund Policy)
-
-- **30 天无理由退款**
-- 退款后必须停止使用并删除所有副本
-- 退款后许可证自动失效
-
-### 6. 免责声明 (Disclaimer)
-
-- 软件按"原样"提供，不提供明示或暗示的保证
-- 作者不承担因使用本软件造成的任何间接、特殊或后果性损失
-- 最大责任不超过您支付的许可费用
-
-### 7. 协议期限 (Term)
-
-- 许可证自购买之日起生效
-- 授权期限为 1 年，可续费
-- 到期后可继续使用已发布的版本，但无法获取更新
+**ParrotUI Pro** is the commercial version of ParrotUI, offering premium components, professional support, and enterprise-grade features.
 
 ---
 
-## English Version
+## ✨ 特性 / Features
 
-### 1. LICENSE GRANT
+### 开源版 (MIT)
+- ✅ 基础组件库
+- ✅ 社区支持
+- ✅ 定期更新
 
-This license agreement (the "Agreement") grants you the following rights based on your license type:
-
-| License Type | Description | Price |
-|--------------|-------------|-------|
-| **Developer License** | Per developer, unlimited projects | $99/year |
-| **Project License** | Per project, unlimited developers | $199/year |
-| **Enterprise License** | Unlimited developers and projects | $999/year |
-
-### 2. PERMISSIONS
-
-✅ Use the Software in commercial projects
-✅ Modify source code for internal use
-✅ Deploy to production environments
-✅ Receive priority support
-✅ Access updates and bug fixes
-
-### 3. RESTRICTIONS
-
-❌ Cannot redistribute or sublicense the source code
-❌ Cannot use to create competing UI frameworks
-❌ Cannot reverse engineer or decompile
-❌ Cannot remove copyright notices
-❌ Cannot unbundle components for separate distribution
-
-### 4. SUPPORT
-
-- 📧 Email: parrotui@qq.com
-- 📚 Documentation: https://parrotui.com/docs
-- 🔄 Updates included with active license
-
-### 5. REFUND POLICY
-
-- 30-day money-back guarantee
-- Upon refund, all use must cease and copies deleted
-- License becomes invalid after refund
-
-### 6. DISCLAIMER
-
-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND
-- IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY INDIRECT, SPECIAL, OR CONSEQUENTIAL DAMAGES
-- MAXIMUM LIABILITY LIMITED TO THE AMOUNT PAID FOR THE LICENSE
-
-### 7. TERM
-
-- License effective from purchase date
-- Valid for 1 year, renewable
-- Expired license allows continued use of current version, but no updates
+### 商业版 Pro (Commercial)
+- ✅ **所有开源版功能**
+- ✅ **高级组件** (数据表格、图表、富文本编辑器等)
+- ✅ **企业级主题定制**
+- ✅ **优先技术支持**
+- ✅ **安全更新优先推送**
+- ✅ **商业使用授权**
 
 ---
 
-## 购买与联系 (Contact)
+##  安装 / Installation
 
-| 项目 | 联系方式 |
-|------|----------|
-| 📧 销售咨询 | parrotui@qq.com |
-| 🌐 官方网站 | https://parrotui.com/pricing |
-| 📱 技术支持 | parrotui@qq.com |
+```bash
+# 开源版 (免费)
+npm install parrotui
+
+# 商业版 (需要授权密钥)
+npm install parrotui-pro
+```
+
+### 配置授权密钥 / Configure License Key
+
+```javascript
+// 初始化 ParrotUI Pro
+import { ParrotUI } from 'parrotui-pro';
+
+ParrotUI.init({
+  licenseKey: 'YOUR_LICENSE_KEY' // 购买后获取
+});
+```
 
 ---
 
-**UNAUTHORIZED USE IS STRICTLY PROHIBITED.**
+## 📄 授权 / License
 
-**未经授权的使用将被严格禁止。**
+ParrotUI 采用 **双授权模式** / ParrotUI uses a **dual-licensing model**:
+
+### 🟢 开源版 / Open Source (MIT License)
+- 免费用于个人和商业项目
+- Free for personal and commercial use
+- 查看 [MIT LICENSE](LICENSE)
+
+### 💎 商业版 / Commercial (ParrotUI Pro)
+- 高级组件和功能
+- Premium components and features
+- 优先技术支持
+- Priority technical support
+- 查看 [商业授权](LICENSE_COMMERCIAL)
 
 ---
 
-*Last Updated: March 2026*
+## 💰 价格 / Pricing
+
+| 授权类型 / License | 价格 / Price | 说明 / Description |
+|-------------------|--------------|-------------------|
+| **开源版 / Open Source** | 免费 / Free | 基础组件 / Basic components |
+| **个人授权 / Personal** | $9 **永久** | 个人开发者，无限项目 |
+| **企业年付 / Enterprise (Annual)** | $9/年 | 企业使用，年付订阅 |
+| **企业永久 / Enterprise (Lifetime)** | $49 **永久** | 企业使用，永久授权 |
+
+📧 **购买咨询 / Sales**: parrotui@qq.com
+🌐 **官方网站 / Website**: https://parrotui.com/pricing
+
+---
+
+## 📚 文档 / Documentation
+
+- 📖 [快速开始 / Quick Start](https://parrotui.com/docs)
+- 🎨 [组件库 / Components](https://parrotui.com/components)
+- 🔧 [主题定制 / Theme Customization](https://parrotui.com/theme)
+- 💼 [商业版功能 / Pro Features](https://parrotui.com/pro)
+
+---
+
+## 🤝 支持 / Support
+
+### 开源版支持 / Community Support
+- GitHub Issues
+- 社区论坛 / Community Forum
+
+### 商业版支持 / Pro Support
+- 📧 优先邮件支持 / Priority Email: parrotui@qq.com
+- 💬 专属技术支持群 / Dedicated Support Channel
+- 📞 企业客户电话支持 / Phone Support (Enterprise)
+
+---
+
+## 🔄 退款政策 / Refund Policy
+
+- **30 天无理由退款** / 30-day money-back guarantee
+- 联系 parrotui@qq.com 申请退款
+
+---
+
+## 📞 联系我们 / Contact Us
+
+| 部门 / Department | 联系方式 / Contact |
+|------------------|-------------------|
+| 销售咨询 / Sales | parrotui@qq.com |
+| 技术支持 / Support | parrotui@qq.com |
+| 商务合作 / Business | parrotui@qq.com |
+
+---
+
+## ⚖️ 法律声明 / Legal Notice
+
+- ParrotUI 是 Parrot Technology Co., Ltd. 的注册商标
+- 未经授权的商业使用将被追究法律责任
+- Unauthorized commercial use will be prosecuted
+
+---
+
+**Copyright © 2026 Parrot Technology Co., Ltd. All Rights Reserved.**
